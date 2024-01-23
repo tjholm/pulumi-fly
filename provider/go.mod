@@ -1,4 +1,4 @@
-module github.com/dirien/pulumi-fly/provider
+module github.com/tjholm/pulumi-fly/provider
 
 go 1.20
 
@@ -8,6 +8,7 @@ replace (
 )
 
 require (
+	github.com/dirien/pulumi-fly/provider v0.0.0-20240121195404-b0b5eb6dfc42
 	github.com/fly-apps/terraform-provider-fly/shim v0.0.0
 	github.com/pulumi/pulumi-terraform-bridge/pf v0.24.0
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.71.0
